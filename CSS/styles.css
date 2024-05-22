@@ -355,6 +355,14 @@ html section div a {
     grid-column: 1/2;
     grid-row: 8/9;
   }
+  html .sobremi {
+    display: flex;
+    flex-direction: column;
+  }
+  html .sobremi div {
+    margin: 0;
+    width: 100%;
+  }
   html .sobremi-section {
     display: flex;
     flex-direction: column;
