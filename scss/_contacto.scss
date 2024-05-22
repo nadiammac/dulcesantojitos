@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+>* {margin: 0;}
+    .contact{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $veige;
+        justify-content: center;
+        
+        form{
+            display: grid;
+            width: 800px;
+            margin-bottom: 24px;
+            margin-left: 36px;
+            margin-right: 36px;
+            gap: 8px;
+            input, select, textarea {
+                width: calc(100% - 32px);
+                height: 32px;
+                margin-left: 0px;
+                padding-left: 12px;
+                padding-right: 12px;
+                border-radius: 8px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 14px;
+            }
+            label{
+                display: block;
+                font-family: "DM Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                text-align: left; 
+                font-size: 14px;
+                margin: 0;
+            }
+            textarea {
+                height: 64px;
+            }
+            .btn-submit{
+                background-color: $marron;
+                color: white;
+                border-radius: 8px;
+                height: 38px;
+                text-align: center;
+                margin: 0px;
+            }
+        }
+    }
+}

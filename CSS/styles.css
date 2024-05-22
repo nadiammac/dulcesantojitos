@@ -1,397 +1,445 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
-*{
-    margin: 0 auto;
-    padding: 0;
-}
-html {
-    font-size: 16px;
-}
-/* HEADER */
-header {
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-header nav{
-    background-color:#a0a503;
-    top: 0;
-}
-.nav-link{
-    color:white;
-}
-.container-fluid{
-    padding-left: 24px;
-    padding-right: 24px;
-}
-.navbar-brand{
-    color:white;
-}
-main {
-    background-color: #F2E2C4;
-}
-/* CONTENIDO */
-main img{
-    display: flex;
-    height: 60vh;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.recetas{
-    background-color: #F2E2C4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.row>div{
-    width: auto;
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    background-color: #F2E2C4;
-    width: auto;
-    border: none;
-    gap: 4px;
-    padding-bottom: 8px;
-}
-.recetas div img{
-    display: flex;
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-}
-.recetas .button{
-    background-color: #8C3503;
-    border-radius: 8px;
-    width: 64px;
-    height: 38px;
-    text-align:center;
-    padding-left: 12px;
-    padding-right: 12px;
-    align-content: center;
-}
-.sobremi{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color:#D9A86C;
-}
-.sobremi div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    padding: 16px;
-    object-fit: cover;
-}
-.sobremi div img{
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-.sobremi .button{
-    background-color: #8C3503;
-    border-radius: 8px;
-    width: auto;
-    text-align:center;
-    padding: 12px
-}
-.sobremi .text{
-    gap: 8px;
-}
-.sobremi-section{
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #F2E2C4;
-}
-.sobremi-section div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.sobremi-section .text{
-    gap: 8px;
-}
-section{
-    padding: 16px;
-    align-items: center;
-}
-.galeria{
-    display: grid;
-    grid-gap: 8px;
-}
-.galeria img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-}
-/* TEXTOS */
-h1 {
-    color:#000 ;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    font-size: 44px;
-    margin: 0;
-    padding-bottom: 8px;
-}
-h2 {
-    margin-bottom: 8px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 14px;
-    color:#000;
-    margin-bottom: 0px;
-}
-p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-    font-size: 14px;
-    color:#000;
-    margin-bottom: 0px;
-}
-ul li{
-    list-style: none;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left; 
-    font-size: 16px;
-}
-article {
-    width: 100%;
-    padding: 16px;
-}
-a{
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-    font-size: 14px;
-    color:#000;
-    margin-bottom: 0px;
-}
-section a {
-    color: #8C3503;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 14px;
-    text-decoration: underline;
-    text-decoration: none;
-}
-section div a{
-    color: #F8F9FA;
-}
-/* RECETAS */
-.recetas section{
-    padding-top: 40px;
-    align-items: center;
-}
-/* FORMULARIO */
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #F2E2C4;
-}
-section form{
-    width: 800px;
-    margin-bottom: 24px;
-    margin-left: 36px;
-    margin-right: 36px;
-}
-input, select, textarea {
-    width: calc(100% - 32px);
-    margin-bottom: 8px;
-    margin-top: 4px;
-    height: 32px;
-    margin-left: 0px;
-    padding-left: 12px;
-    padding-right: 12px;
-    background-color: #F8F9FA;
-    border-radius: 8px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-}
-label{
-    display: block;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left; 
-    font-size: 14px;
-}
-textarea {
-    height: 64px;
-}
-.btn-submit{
-    background-color: #A0A603;
-    border-radius: 8px;
-    width: 64px;
-    height: 38px;
-    text-align: center;
-    margin: 0px;
+/* Variables */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
 }
 
-/* FOOTER */
-footer{
-    background-color:#000;
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header nav {
+  background-color: #A0A603;
+  top: 0;
+}
+header nav .nav-link {
+  color: white;
+}
+header nav .container-fluid {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+header nav .navbar-brand {
+  color: white;
+}
+header main {
+  background-color: #F2E2C4;
+}
+header main img {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body > * {
+  margin: 0;
+}
+body .contact {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2E2C4;
+  justify-content: center;
+}
+body .contact form {
+  display: grid;
+  width: 800px;
+  margin-bottom: 24px;
+  margin-left: 36px;
+  margin-right: 36px;
+  gap: 8px;
+}
+body .contact form input, body .contact form select, body .contact form textarea {
+  width: calc(100% - 32px);
+  height: 32px;
+  margin-left: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+body .contact form label {
+  display: block;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+}
+body .contact form textarea {
+  height: 64px;
+}
+body .contact form .btn-submit {
+  background-color: #8C3503;
+  color: white;
+  border-radius: 8px;
+  height: 38px;
+  text-align: center;
+  margin: 0px;
+}
+
+footer {
+  background-color: #000;
 }
 footer nav {
-    display: flex ;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
-footer p{
-    color:white;
-    width: 90%;
-    margin-left: 0%;
-    margin-right: auto;
+footer nav p {
+  color: white;
+  width: 90%;
+  margin-left: 0%;
+  margin-right: auto;
 }
-footer a{
-    width: auto;
+footer nav a {
+  width: auto;
 }
-svg{
-    color: white;
-    width: 16px;
-    height: 16px ;
+footer nav a svg {
+  color: white;
+  width: 16px;
+  height: 16px;
 }
-/* mobile */
+
+main img {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.recetas {
+  background-color: #F2E2C4;
+  display: flex;
+  justify-content: center;
+}
+.recetas .row > div {
+  width: auto;
+  margin: 0;
+}
+.recetas .row > div .card {
+  display: flex;
+  flex-direction: column;
+  background-color: none;
+  width: auto;
+  border: none;
+  gap: 4px;
+  padding-bottom: 8px;
+}
+.recetas .row > div .card div img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.sobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #D9A86C;
+}
+.sobremi div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sobremi div img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.sobremi .text {
+  gap: 8px;
+}
+.sobremi .text .button {
+  background-color: #8C3503;
+  border-radius: 8px;
+  width: auto;
+  text-align: center;
+  padding: 12px;
+}
+.sobremi .text a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  font-size: 14px;
+  color: #F2E2C4;
+  margin-bottom: 0px;
+}
+
+.sobremi-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #F2E2C4;
+}
+.sobremi-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 16px;
+}
+.sobremi-section div img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.recetas {
+  background-color: #F2E2C4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recetas .row {
+  justify-content: center;
+  width: auto;
+}
+.recetas .row .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2E2C4;
+  width: auto;
+  border: none;
+  gap: 4px;
+  padding-bottom: 8px;
+}
+
+.galeria {
+  display: grid;
+  grid-gap: 8px;
+}
+.galeria img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+html {
+  font-size: 16px;
+  /* tablet */
+  /* desktop */
+}
+html section {
+  padding: 16px;
+  align-items: center;
+  background-color: #F2E2C4;
+}
+html main {
+  background-color: #F2E2C4;
+}
+html .textos, html p, html h2, html h1 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #000;
+  margin: 0;
+  padding-bottom: 8px;
+}
+html h1 {
+  font-weight: 700;
+  font-size: 44px;
+}
+html h2 {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+html p {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+}
+html ul li {
+  font-weight: 400;
+  list-style: none;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: left;
+  font-size: 16px;
+}
+html article {
+  width: 100%;
+  padding: 16px;
+}
+html section a {
+  font-weight: 500;
+  color: #F2E2C4;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration: none;
+}
+html section div a {
+  color: #F2E2C4;
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .galeria{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 1fr);
-    }
-    .galeria-img-uno{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .galeria-img-dos{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .galeria-img-tres{
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    .galeria-img-cuatro{
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    .galeria-img-cinco{
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    .galeria-img-seis{
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
-    .galeria-img-siete{
-        grid-column: 1/2;
-        grid-row: 7/8;
-    }
-    .galeria-img-ocho{
-        grid-column: 1/2;
-        grid-row: 8/9;
-    }
+  html .galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+  }
+  html .galeria-img-uno {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  html .galeria-img-dos {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  html .galeria-img-tres {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  html .galeria-img-cuatro {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  html .galeria-img-cinco {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  html .galeria-img-seis {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  html .galeria-img-siete {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+  html .galeria-img-ocho {
+    grid-column: 1/2;
+    grid-row: 8/9;
+  }
+  html .sobremi-section {
+    display: flex;
+    flex-direction: column;
+  }
+  html .sobremi-section div {
+    margin: 0;
+    width: 100%;
+  }
+  html .contact form {
+    width: 100%;
+  }
 }
-/* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .galeria{
-        grid-template-columns: repeat(3fr, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-    .galeria-img-uno{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .galeria-img-dos{
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    .galeria-img-tres{
-        grid-column: 3/4;
-        grid-row: 1/3;
-    }
-    .galeria-img-cuatro{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .galeria-img-cinco{
-        grid-column: 2/3;
-        grid-row: 2/3 ;
-    }
-    .galeria-img-seis{
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-    .galeria-img-siete{
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-    .galeria-img-ocho{
-        grid-column: 1/4;
-        grid-row: 4/5;
-    }
+  html .galeria {
+    grid-template-columns: repeat(3fr, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  html .galeria-img-uno {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  html .galeria-img-dos {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  html .galeria-img-tres {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  html .galeria-img-cuatro {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  html .galeria-img-cinco {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  html .galeria-img-seis {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  html .galeria-img-siete {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  html .galeria-img-ocho {
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
 }
-/* desktop */
-@media screen and (min-width: 1024px){
-    .galeria{
-        grid-template-columns: repeat(4fr, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-    }
-    .galeria-img-uno{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .galeria-img-dos{
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    .galeria-img-tres{
-        grid-column: 3/4;
-        grid-row: 1/3;
-    }
-    .galeria-img-cuatro{
-        grid-column: 4/5;
-        grid-row: 1/2;
-    }
-    .galeria-img-cinco{
-        grid-column: 1/3;
-        grid-row: 2/3 ;
-    }
-    .galeria-img-seis{
-        grid-column: 4/5;
-        grid-row: 2/4;
-    }
-    .galeria-img-siete{
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-    .galeria-img-ocho{
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-}
+@media screen and (min-width: 1024px) {
+  html .galeria {
+    grid-template-columns: repeat(4fr, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  html .galeria-img-uno {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  html .galeria-img-dos {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  html .galeria-img-tres {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  html .galeria-img-cuatro {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+  html .galeria-img-cinco {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  html .galeria-img-seis {
+    grid-column: 4/5;
+    grid-row: 2/4;
+  }
+  html .galeria-img-siete {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  html .galeria-img-ocho {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+}/*# sourceMappingURL=styles.css.map */

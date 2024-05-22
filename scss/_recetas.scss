@@ -1,0 +1,19 @@
+.recetas{
+    background-color: $veige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .row{
+        justify-content: center;
+        width: auto;
+        .card{
+            display: flex;
+            flex-direction: column;
+            background-color: $veige;
+            width: auto;
+            border: none;
+            gap: 4px;
+            padding-bottom: 8px;
+        }
+    }
+}

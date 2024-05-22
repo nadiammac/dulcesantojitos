@@ -1,0 +1,29 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    nav{
+        background-color:$verde;
+        top: 0;
+        .nav-link{
+            color:white;
+        }
+        .container-fluid{
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .navbar-brand{
+            color:white;
+        }
+    }
+    main {
+        background-color: $veige;
+        img{
+            display: flex;
+            height: 60vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+footer{
+    background-color:#000;
+    nav {
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        p{
+            color:white;
+            width: 90%;
+            margin-left: 0%;
+            margin-right: auto;
+            }
+        a{
+            width: auto;
+            svg{
+                color: white;
+                width: 16px;
+                height: 16px ;
+            }
+        }
+    }
+}
